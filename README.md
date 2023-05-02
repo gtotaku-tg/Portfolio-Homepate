@@ -21,7 +21,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
    
 
 ### Live URL
-    https://gtotaku-tg.github.io/Passcode-Generator-_-TG/
+    https://gtotaku-tg.github.io/Portfolio-Homepate_TG/
 
 ### Portfolio Homepage Preview
 * Basic Interface
