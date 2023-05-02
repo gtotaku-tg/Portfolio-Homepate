@@ -35,7 +35,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Based on the criteria, these things has been made:
 * Developer's name, recent photo, links to sections has been provided.
 * When the link is clicked, the UI will scroll to the corresponding section.
-* When hove to the each application image, the image will be enlarged.
+* When hover to the each application image, the image will be enlarged.
 * when the image is clicked, the deployed application will be opened.
 * At last, when resize the page, the responsive layout will be presented.
 
