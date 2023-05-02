@@ -21,11 +21,33 @@ THEN I am presented with a responsive layout that adapts to my viewport
    
 
 ### Live URL
-    Http:
+    https://gtotaku-tg.github.io/Passcode-Generator-_-TG/
 
 ### Portfolio Homepage Preview
+* Basic Interface
+    ![Basic interface](/Assets/images/portfolio.png)
+
+* Hover affect
+    ![Prompt alert](/assets/images/hover_affect.png)
+
 
 ### About
+Based on the criteria, these things has been made:
+* Developer's name, recent photo, links to sections has been provided.
+* When the link is clicked, the UI will scroll to the corresponding section.
+* When hove to the each application image, the image will be enlarged.
+* when the image is clicked, the deployed application will be opened.
+* At last, when resize the page, the responsive layout will be presented.
 
 ### Contributor
+* James - Classmate
+
+* FreeCodeCamp
+
+* Krishna - TA
+
+* logrocket
+
+* W3Schools
+
 
