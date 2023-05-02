@@ -1,60 +1,145 @@
-/* Text decoration None */
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
-
+/* Root global variable */
+:root {
+    --primary-color: #4e6e7e;
+    --secondary-color: #caced0;
+    --tertiary-color: #101010;
+    --quaternary-color: #caced0;
+    --quinary-color: #4e6e7e;
+    --senary-color: #caced0;
+    --septenary-color: #101010;
+    --octonary-color: #caced0;
+    --nonary-color: #4e6e7e;
+    --denary-color: #caced0;
+    --font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifImpact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+* a{
+    text-decoration: none;
+    color: #ffffff;
+}
+body{
+    
+}
+/* Properties for header tag */
 header {
-    text-align: right;
-    padding: 15px;
+    font-family: var(--font-family);
+    text-align: center;
+    display: flex;
+    padding: 8px;
+    flex-wrap: wrap;
+    margin: 8px 0;
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: transparent;
     background-color: #4e6e7e;
     background-image: linear-gradient(to right, #101010, #caced0);
 }
 
-
+/* Properties for header_nav_ul_li tag */
 header nav ul li {
     display: inline-block;
     margin-left: 50px;
-    color:aliceblue;
 }
 
-#menu {
-    height: 100vh;
-    display:flex;
-    align-items:center;
-    background-color: bisque;
+/* Properties for header_nav_ul_li_a tag */
+header nav ul li a {
+    font-family: var(--font-family);
 }
-.menu-item {
-    color:grey;
-    font-size: clamp(3rem, 8vw, 8rem);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: block;
-    text-decoration: none;
-    padding-bottom: 25px;
-    margin-left: 50px;
- 
-}   
+
+/* Hero scetion */
 .hero {
+    font-family: var(--font-family);
     height:100vh;
     background: url('../images/20190309-DSC08757.jpeg');
     background-size:cover;
     position:relative;
 }
-/* text css above hero image*/
-.hero_title {
-    font-size: 4.5rem;
-}
-.hero_desc {
-    font-size: 2rem;
-}
 .hero-text {
+    max-width: 100%;
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+  }
+
+/* text css cover above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    
+}
+.hero_desc {
+    font-size: 2rem;
+}
+
+.about-me{
+    background-color: #4e6e7e;
+    background-image: linear-gradient(to right, #101010, #929394);
+    padding: 50px;
+    margin: 8px 0;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifImpact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.projects{
+    background-color: #4e6e7e;
+    justify-items: center;
+    background-image: linear-gradient(to right, #101010, #929394);
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifImpact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.projects_title{
+    padding: 20px;
+}
+
+.projects_container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;}
+
+.p1 {grid-area: 1 / 1 / 3 / 3; }
+.p2 {grid-area: 1 / 3 / 3 / 5;}
+.p3 {grid-area: 3 / 1 / 5 / 3;}
+.p4 {grid-area: 3 / 3 / 5 / 5; }
+.p5 {grid-area: 1 / 5 / 4 / 7;}
+.p6 {grid-area: 4 / 5 / 6 / 7;}
+
+.projects_container-item-img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0.5;
+    border: 10px solid #caced0;
+}
+
+.projects_container-item-img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+    opacity: 0.8;
+
+}
+
+.projects_container-tiem-tirtle{
+
+}
+
+.contactMe{
+    background-color: #4e6e7e;
+    background-image: linear-gradient(to right, #101010, #929394);
+    padding: 50px;
+    margin: 8px 0;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifImpact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
