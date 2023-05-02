@@ -51,6 +51,12 @@ header nav ul li a {
     background-size:cover;
     position:relative;
 }
+.photo {
+    width: 30%;
+    height: 10%;
+    opacity: 1;
+    border-radius: 60%;
+}
 .hero-text {
     max-width: 100%;
     text-align: center;
