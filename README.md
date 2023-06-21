@@ -28,7 +28,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
     ![Basic interface](/Assets/images/portfolio.png)
 
 * Hover affect
-    ![Prompt alert](/assets/images/hover_affect.png)
+    ![Prompt alert](/Assets/images/hover_affect.png)
 
 
 ### About
